@@ -1,0 +1,88 @@
+url: https://waldronlab.github.io/curatedMetagenomicDataCuration/
+template:
+  bootstrap: 5
+
+home:
+  title: Curated Metagenomic Data Curation
+  description: >
+    Validation for curatedMetagenomicData metadata - orchestrate cMD metadata 
+    curation processes, including initiation, status check, and deploy.
+
+navbar:
+  structure:
+    left:  [home, reference, articles, news]
+    right: [search, github]
+  components:
+    articles:
+      text: Articles
+      menu:
+      - text: Curation Pipeline
+        href: articles/cmd_curation_pipeline.html
+      - text: Create Curation Template
+        href: articles/create_curation_template.html
+      - text: Check Nextflow Outputs
+        href: articles/check_nextflow_outputs.html
+      - text: Check ODM Outputs
+        href: articles/check_odm_outputs.html
+      - text: Status Update
+        href: articles/cmd_status_update.html
+      - text: Curate Missing SRA
+        href: articles/curate_missing_sra.html
+
+reference:
+- title: Core Functions
+  desc: Main functions for metadata curation
+  contents:
+  - createTemplate
+  - makeCombinedMetadata
+  - metadata_long_form
+  - study_long_form
+
+- title: Data Retrieval
+  desc: Functions for retrieving data from external sources
+  contents:
+  - bioproject_to_biosample_metadata
+  - bioproject_to_sra_metadata
+  - doi_to_pmid
+  - getCrossref
+  - getPmid
+
+- title: ODM Integration
+  desc: Functions for Open Data Manager integration
+  contents:
+  - odm_get_samples
+  - odm_get_status
+  - odm_get_studies
+
+- title: Nextflow Integration
+  desc: Functions for Nextflow pipeline integration
+  contents:
+  - nf_get_completed_run
+
+- title: Utilities
+  desc: Helper functions and utilities
+  contents:
+  - baseName
+  - encodeAndClean
+  - extract_pattern_from_fulltext
+  - getPattern
+  - parse_response_data
+
+- title: Classes
+  desc: S4 classes
+  contents:
+  - PubMed-class
+  - PubMed
+
+authors:
+  Paolo Manghi:
+    href: https://github.com/paolomanghi1974
+  Lucas Schiffer:
+    href: https://github.com/schifferl
+  Nicola Segata:
+    href: https://github.com/nsegata
+  Levi Waldron:
+    href: https://github.com/lwaldron
+  Sehyun Oh:
+    href: https://github.com/shbrief
+

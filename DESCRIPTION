@@ -1,16 +1,17 @@
 Package: curatedMetagenomicDataCuration
 Type: Package
 Title: Curated Metagenomic Data of the Human Microbiome
-Version: 0.99.8
+Version: 0.99.9
 Author:
     Paolo Manghi <paolomanghi1974@gmail.com>,
     Lucas Schiffer <schiffer.lucas@gmail.com>,
     Nicola Segata <nicola.segata@gmail.com>,
     Levi Waldron <lwaldron.research@gmail.com>,
+    Sehyun Oh <shbrief@gmail.com>
 Maintainer: Levi Waldron <lwaldron.research@gmail.com>
 Description:
-    Syntax checking for curatedMetagenomicData.
-URL: https://github.com/waldronlab/curatedMetagenomicDataCuration
+    Validation for curatedMetagenomicData metadata
+URL: https://waldronlab.github.io/curatedMetagenomicDataCuration/, https://github.com/waldronlab/curatedMetagenomicDataCuration
 BugReports: https://github.com/waldronlab/curatedMetagenomicDataCuration/issues
 License: Artistic-2.0
 Encoding: UTF-8

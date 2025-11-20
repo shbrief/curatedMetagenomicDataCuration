@@ -37,7 +37,9 @@ metadata schema.
 + [new version](https://github.com/shbrief/curatedMetagenomicDataCuration/blob/master/inst/extdata/cMD_curated_metadata_release.csv)
 
 
-# More complete introduction
+# Documentation
 
-The complete reference for curators is provided at this page's 
+📖 **Complete documentation and reference materials are available at our [GitHub Pages site](https://waldronlab.github.io/curatedMetagenomicDataCuration/)**
+
+The complete reference for curators is also provided at this page's 
 [wiki](https://github.com/waldronlab/curatedMetagenomicDataCuration/wiki).
