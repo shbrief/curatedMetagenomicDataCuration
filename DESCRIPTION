@@ -27,7 +27,8 @@ Imports:
     curl,
     jsonlite,
     omicidxClientR,
-    tibble
+    tibble,
+    rentrez
 Suggests:
     testthat,
     knitr,
