@@ -11,7 +11,7 @@ Author:
 Maintainer: Levi Waldron <lwaldron.research@gmail.com>
 Description:
     Validation for curatedMetagenomicData metadata
-URL: https://waldronlab.github.io/curatedMetagenomicDataCuration/, https://github.com/waldronlab/curatedMetagenomicDataCuration
+URL: https://waldronlab.github.io/curatedMetagenomicDataCuration/, https://github.com/waldronlab/curatedMetagenomicDataCuration, https://shbrief.github.io/curatedMetagenomicDataCuration/
 BugReports: https://github.com/waldronlab/curatedMetagenomicDataCuration/issues
 License: Artistic-2.0
 Encoding: UTF-8

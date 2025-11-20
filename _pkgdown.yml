@@ -1,17 +1,20 @@
-url: https://waldronlab.github.io/curatedMetagenomicDataCuration/
+url: https://shbrief.github.io/curatedMetagenomicDataCuration/
 template:
   bootstrap: 5
-
 home:
   title: Curated Metagenomic Data Curation
-  description: >
-    Validation for curatedMetagenomicData metadata - orchestrate cMD metadata 
-    curation processes, including initiation, status check, and deploy.
-
+  description: |
+    Validation for curatedMetagenomicData metadata - orchestrate cMD metadata  curation processes, including initiation, status check, and deploy.
 navbar:
   structure:
-    left:  [home, reference, articles, news]
-    right: [search, github]
+    left:
+    - home
+    - reference
+    - articles
+    - news
+    right:
+    - search
+    - github
   components:
     articles:
       text: Articles
@@ -28,7 +31,6 @@ navbar:
         href: articles/cmd_status_update.html
       - text: Curate Missing SRA
         href: articles/curate_missing_sra.html
-
 reference:
 - title: Core Functions
   desc: Main functions for metadata curation
@@ -37,7 +39,6 @@ reference:
   - makeCombinedMetadata
   - metadata_long_form
   - study_long_form
-
 - title: Data Retrieval
   desc: Functions for retrieving data from external sources
   contents:
@@ -46,19 +47,15 @@ reference:
   - doi_to_pmid
   - getCrossref
   - getPmid
-
 - title: ODM Integration
   desc: Functions for Open Data Manager integration
   contents:
   - odm_get_samples
   - odm_get_status
   - odm_get_studies
-
 - title: Nextflow Integration
   desc: Functions for Nextflow pipeline integration
-  contents:
-  - nf_get_completed_run
-
+  contents: nf_get_completed_run
 - title: Utilities
   desc: Helper functions and utilities
   contents:
@@ -67,13 +64,11 @@ reference:
   - extract_pattern_from_fulltext
   - getPattern
   - parse_response_data
-
 - title: Classes
   desc: S4 classes
   contents:
   - PubMed-class
   - PubMed
-
 authors:
   Paolo Manghi:
     href: https://github.com/paolomanghi1974

@@ -5,3 +5,6 @@
 .pre_script_build.sh
 .travis.yml
 ^\.github$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
