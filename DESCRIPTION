@@ -28,12 +28,14 @@ Imports:
     jsonlite,
     omicidxClientR,
     tibble,
-    rentrez
+    rentrez,
+    stringr,
+    httr,
+    xml2
 Suggests:
     testthat,
     knitr,
     rmarkdown,
-    stringr,
     httr2
 Remotes:
     waldronlab/omicidxClientR
