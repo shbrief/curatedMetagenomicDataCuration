@@ -31,7 +31,8 @@ Imports:
     rentrez,
     stringr,
     httr,
-    xml2
+    xml2,
+    purrr
 Suggests:
     testthat,
     knitr,
