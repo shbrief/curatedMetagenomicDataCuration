@@ -31,13 +31,14 @@ Imports:
     rentrez,
     stringr,
     httr,
-    xml2,
-    purrr
+    xml2
 Suggests:
     testthat,
     knitr,
     rmarkdown,
-    httr2
+    httr2,
+    purrr,
+    quarto
 Remotes:
     waldronlab/omicidxClientR
 VignetteBuilder: knitr
