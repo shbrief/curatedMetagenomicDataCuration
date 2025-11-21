@@ -16,5 +16,6 @@ a string representing JSON response
 Get request
 }
 \examples{
-getRequest(.CROSSREF("10.1128/mSystems.00164-16"))
+.getRequest(.CROSSREF("10.1128/mSystems.00164-16"))
 }
+\keyword{internal}

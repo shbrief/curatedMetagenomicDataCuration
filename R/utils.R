@@ -60,7 +60,7 @@ getPattern <- function(ss, patternName) {
 #' @keywords internal
 #'
 #' @examples
-#' getRequest(.CROSSREF("10.1128/mSystems.00164-16"))
+#' .getRequest(.CROSSREF("10.1128/mSystems.00164-16"))
 .getRequest <- function(url) {
     request(url) |>
         req_perform() |>
