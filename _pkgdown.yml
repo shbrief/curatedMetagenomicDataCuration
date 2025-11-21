@@ -64,6 +64,7 @@ reference:
   - extract_pattern_from_fulltext
   - getPattern
   - parse_response_data
+  - common_patterns
 - title: Classes
   desc: S4 classes
   contents:

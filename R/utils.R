@@ -57,6 +57,7 @@ getPattern <- function(ss, patternName) {
 #' @param url a string representing a URL
 #' @return a string representing JSON response
 #' @importFrom httr2 request req_perform resp_body_json
+#' @keywords internal
 #'
 #' @examples
 #' getRequest(.CROSSREF("10.1128/mSystems.00164-16"))
